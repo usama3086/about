@@ -1,0 +1,70 @@
+body
+{
+    font-family: 'Poppins';
+    background-color: #F5F5F5;
+}
+.topNav
+{
+    background-color: #2B1D7A;
+}
+.regulartxt
+{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+.navfont
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.dropdown
+{
+  transition: display 0.5s ease-in-out;
+  padding: 10px 0 ;
+  color: white;
+}
+.dropdown ul
+{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #00AEEF; 
+    color: white;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    background-color:#E2EFFF;
+  }
+  #triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 70px solid white;
+}
+
